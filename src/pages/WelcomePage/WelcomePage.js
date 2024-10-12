@@ -1,4 +1,5 @@
 import { useMediaQuery } from "react-responsive";
+import { Link } from "react-router-dom";
 import css from "./WelcomePage.module.css";
 import { ReactComponent as LogoMobile } from "../../images/WelcomePage/logo-m.svg";
 import { ReactComponent as LogoTablet } from "../../images/WelcomePage/logo-tablet.svg";
@@ -27,8 +28,12 @@ function WelcomePage() {
         your own recipes at any time.
       </p>
       <div className={css.buttonBar}>
-        <RegistrationButton />
-        <SignInButton />
+        <Link to="/registration">
+          <RegistrationButton />
+        </Link>
+        <Link to="/signin">
+          <SignInButton />
+        </Link>
       </div>
     </div>
   );
