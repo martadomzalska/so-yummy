@@ -143,3 +143,28 @@
     margin-top: 96px;
   }
 }
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    background-image: url(../../images/RegisterPage/background-desktop.svg);
+    background-position-y: 350px;
+    justify-content: center;
+    gap: 115px;
+  }
+  .form {
+    position: static;
+    top: 30px;
+  }
+
+  .button {
+    height: 59px;
+  }
+  .link {
+    /* position: static; */
+    top: 18px;
+    left: 45%;
+  }
+  .picture {
+    margin: 0;
+  }
+}
