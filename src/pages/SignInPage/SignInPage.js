@@ -1,14 +1,22 @@
 import { Link } from "react-router-dom";
+import { useMediaQuery } from "react-responsive";
 import { ReactComponent as PictureMobile } from "../../images/RegisterPage/picture-mobile.svg";
-import { ReactComponent as EmailIcon } from "../../images/RegisterPage/emailIcon.svg";
-import { ReactComponent as PasswordIcon } from "../../images/RegisterPage/passwordIcon.svg";
+import { ReactComponent as PictureTablet } from "../../images/RegisterPage/picture-tablet.svg";
+import { ReactComponent as EmailIconMobile } from "../../images/RegisterPage/emailIcon.svg";
+import { ReactComponent as EmailIconTablet } from "../../images/RegisterPage/emailInput-tablet.svg";
+import { ReactComponent as PasswordIconMobile } from "../../images/RegisterPage/passwordIcon.svg";
+import { ReactComponent as PasswordIconTablet } from "../../images/RegisterPage/passwordInput-tablet.svg";
 import css from "./SignIn.module.css";
 
 function SignInPage() {
+  const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
+  const Picture = isMobile ? PictureMobile : PictureTablet;
+  const EmailIcon = isMobile ? EmailIconMobile : EmailIconTablet;
+  const PasswordIcon = isMobile ? PasswordIconMobile : PasswordIconTablet;
   return (
     <div className={css.container}>
       <div className={css.picture}>
-        <PictureMobile />
+        <Picture />
       </div>
       <form className={css.form}>
         <label className={css.label}>Sign In</label>
