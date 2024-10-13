@@ -34,8 +34,9 @@
   margin-top: 32px;
   margin-bottom: 18px;
 }
-.input {
+/* .inputContainer {
   box-sizing: border-box;
+  display: flex;
   width: 279px;
   height: 45px;
   background: #2a2c36;
@@ -51,7 +52,47 @@
   border: 1px solid rgba(250, 250, 250, 0.8);
   border-radius: 6px;
   margin-bottom: 14px;
+} */
+.inputContainer {
+  width: 279px;
+  position: relative;
 }
+.iconInside {
+  position: absolute;
+  left: 14px;
+  top: 37%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.input {
+  box-sizing: border-box;
+  display: flex;
+  width: 279px;
+  height: 45px;
+  background: #2a2c36;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  padding-left: 40px;
+  border: 1px solid rgba(250, 250, 250, 0.8);
+  border-radius: 6px;
+  margin-bottom: 14px;
+}
+/* .input {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin-left: 8px;
+  background: #2a2c36;
+  border: none;
+  color: white;
+} */
 
 .button {
   display: flex;
