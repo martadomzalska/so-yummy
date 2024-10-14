@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/so-yummy-cookbook/static/css/main.4a7624a2.css",
+    "main.js": "/so-yummy-cookbook/static/js/main.d8709c96.js",
+    "static/js/453.1d36cbe7.chunk.js": "/so-yummy-cookbook/static/js/453.1d36cbe7.chunk.js",
+    "static/media/welcome-desktop.png": "/so-yummy-cookbook/static/media/welcome-desktop.a6703e974715402f4ee3.png",
+    "static/media/welcome-tablet.png": "/so-yummy-cookbook/static/media/welcome-tablet.2326ba838e8db8119f0b.png",
+    "static/media/welcome-mobile.png": "/so-yummy-cookbook/static/media/welcome-mobile.dd47dd002e544f0dc024.png",
+    "static/media/picture-mobile.svg": "/so-yummy-cookbook/static/media/picture-mobile.81fcb32c17422b2524e8cfc1dc383cd2.svg",
+    "static/media/picture-tablet.svg": "/so-yummy-cookbook/static/media/picture-tablet.6f782c91c76dcb42457658a24cbeae15.svg",
+    "static/media/picture-desktop.svg": "/so-yummy-cookbook/static/media/picture-desktop.e42bd30f99b1473f24f8bae33ca09571.svg",
+    "static/media/registrationButtonTablet.svg": "/so-yummy-cookbook/static/media/registrationButtonTablet.7460e44162879b114aaf2937c2a9d350.svg",
+    "static/media/registrationButton.svg": "/so-yummy-cookbook/static/media/registrationButton.2b7d0c2f902c161325ffbd285816395b.svg",
+    "static/media/signInButtonTablet.svg": "/so-yummy-cookbook/static/media/signInButtonTablet.81f0130b1e312c35597a2c760aab5c3a.svg",
+    "static/media/signInButton.svg": "/so-yummy-cookbook/static/media/signInButton.60bbcd89893d1168723afbbc1d286121.svg",
+    "static/media/logo-tablet.svg": "/so-yummy-cookbook/static/media/logo-tablet.d56b53a6dd7cc9fb613dec59053befff.svg",
+    "static/media/logo-m.svg": "/so-yummy-cookbook/static/media/logo-m.5c84babaadf2e93916ef055cb3b4af5c.svg",
+    "static/media/logo-mobile.svg": "/so-yummy-cookbook/static/media/logo-mobile.927dd7695b30c923da175e7879cb0f0d.svg",
+    "index.html": "/so-yummy-cookbook/index.html",
+    "static/media/emailIcon.svg": "/so-yummy-cookbook/static/media/emailIcon.c2464bc8a4eb1e5671f8d679a6aa507f.svg",
+    "static/media/emailInput-tablet.svg": "/so-yummy-cookbook/static/media/emailInput-tablet.da87fbbdca04bee48afcca01b8e9a712.svg",
+    "static/media/passwordIcon.svg": "/so-yummy-cookbook/static/media/passwordIcon.f7ae62fad6f7df32eb595366ad2fc91a.svg",
+    "static/media/passwordInput-tablet.svg": "/so-yummy-cookbook/static/media/passwordInput-tablet.d00a8785e7b5d597cbf04df225e2f409.svg",
+    "static/media/userInput.svg": "/so-yummy-cookbook/static/media/userInput.767a53b665f0199bcf06692cdab8a205.svg",
+    "static/media/userInput-tablet.svg": "/so-yummy-cookbook/static/media/userInput-tablet.13d501f9aa6f0b3208e4cc92d047d8f0.svg",
+    "static/media/background-mobile.svg": "/so-yummy-cookbook/static/media/background-mobile.2a15ade86b06afbebfff.svg",
+    "static/media/background-tablet.svg": "/so-yummy-cookbook/static/media/background-tablet.f98227bc0143b57ad73e.svg",
+    "static/media/background-desktop.svg": "/so-yummy-cookbook/static/media/background-desktop.d5d5440654b186017dda.svg",
+    "main.4a7624a2.css.map": "/so-yummy-cookbook/static/css/main.4a7624a2.css.map",
+    "main.d8709c96.js.map": "/so-yummy-cookbook/static/js/main.d8709c96.js.map",
+    "453.1d36cbe7.chunk.js.map": "/so-yummy-cookbook/static/js/453.1d36cbe7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a7624a2.css",
+    "static/js/main.d8709c96.js"
+  ]
+}
